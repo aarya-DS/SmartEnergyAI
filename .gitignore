@@ -1,0 +1,41 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+frontend/build/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database & Sessions
+*.db
+*.sqlite3
+*.db-journal
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Large Raw Datasets (GitHub 100MB limit)
+data/processed/master_energy_weather.pkl
+data/raw/electricity_cleaned.csv
+
+# Large Model Weights (Random Forest is 835MB, exceeds GitHub 100MB limit)
+models/random_forest_model.pkl
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
